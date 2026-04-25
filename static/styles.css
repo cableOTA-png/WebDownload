@@ -5,38 +5,49 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; 
 }
 
 h1 {
     font-size: 45px;
-    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+
+.main-container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px; 
 }
 
 input {
     border-radius: 15px;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ccc;
-    width: 95%;
+    width: 100%;
+    box-sizing: border-box; 
+    margin-bottom: 10px;
 }
 
 .botonSubir {
-    font-weight: 100px;
+    font-weight: bold;
     border-radius: 15px;
     background-color: paleturquoise;
     padding: 15px 20px;
     border: none;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 10px auto;
-    width: 200px;
+    width: 100%; 
+    transition: 0.3s;
 }
 
 .botonSubir:hover {
     background-color: cornflowerblue;
     color: white;
+    transform: translateY(-2px); 
 }
+
 .select-calidad {
     padding: 10px;
     border-radius: 10px;
@@ -46,6 +57,7 @@ input {
     width: 100%; 
     cursor: pointer;
 }
+
 .sub {
     color: #666666;          
     font-size: 1.1rem;       
@@ -53,6 +65,15 @@ input {
     margin-top: -10px;       
     margin-bottom: 25px;     
     text-align: center;      
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.5px;   
+}
+
+
+.ad-slot {
+    margin-top: 30px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
