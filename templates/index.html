@@ -3,33 +3,39 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Link Downloader</title>
-        <link
-            rel="stylesheet"
-            href="{{ url_for('static', filename='styles.css') }}"
-        />
+        <title>Downloaded-it | Free Video Downloader</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
     </head>
     <body>
-        <h1>Downloaded-it</h1>
-        <p class="sub">Descarga videos con solo el link.</p>
-        <form action="/descargar" method="post">
-            <input
-                type="text"
-                name="url"
-                placeholder="Pega el link aquí..."
-                required
-            />
-            <label for="formato"></label>
-            <select name="calidad" id="calidad" class="select-calidad">
-                <option value="alta">Alta (Mejor disponible)</option>
-                <option value="baja">Baja (Ahorrar Datos)</option>
-            </select>
-            <br />
-            <br />
-            <button class="botonSubir" type="submit">¡Descargar ahora!</button>
-        </form>
-        <script src="https://pl29245370.profitablecpmratenetwork.com/c0/ea/14/c0ea14c47cf7fc41f170b6993301ee1e.js"></script>
+        <div class="main-container">
+            <h1>Downloaded-it</h1>
+            <p class="sub">Descarga videos con solo el link | By cableOTA-png</p>
+            
+            <form action="/descargar" method="post">
+                <input
+                    type="text"
+                    name="url"
+                    placeholder="Pega el link aquí..."
+                    required
+                />
+                <br />
+                <select name="calidad" id="calidad" class="select-calidad">
+                    <option value="alta">Alta (Mejor disponible)</option>
+                    <option value="baja">Baja (Ahorrar Datos)</option>
+                </select>
+                <br /><br />
+                <button class="botonSubir" type="submit">¡Descargar ahora!</button>
+            </form>
+
+            <div class="ad-slot">
+                <div id="container-e37dcd495eac09c4d2721225921674f2"></div>
+            </div>
+        </div>
+
+        {% raw %}
         <script async="async" data-cfasync="false" src="https://pl29245369.profitablecpmratenetwork.com/e37dcd495eac09c4d2721225921674f2/invoke.js"></script>
-<div id="container-e37dcd495eac09c4d2721225921674f2"></div>
+        
+        <script type='text/javascript' src='https://pl29245370.profitablecpmratenetwork.com/c0/ea/14/c0ea14c47cf7fc41f170b6993301ee1e.js'></script>
+        {% endraw %}
     </body>
 </html>
