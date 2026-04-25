@@ -43,6 +43,16 @@ input {
     border: 1px solid #ddd;
     background-color: white;
     margin: 10px 0;
-    width: 100%; /* Para que ocupe el mismo ancho que el input */
+    width: 100%; 
     cursor: pointer;
+}
+.sub {
+    color: #666666;          
+    font-size: 1.1rem;       
+    font-weight: 300;        
+    margin-top: -10px;       
+    margin-bottom: 25px;     
+    text-align: center;      
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;   
 }
