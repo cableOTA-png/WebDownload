@@ -15,6 +15,10 @@ Una solución web minimalista para la gestión y descarga de contenido multimedi
 * **Arquitectura Adaptativa:** Configuración híbrida preparada para ejecución en entornos locales y servidores en la nube.
 * **Interfaz Mobile-First:** Experiencia de usuario fluida y centrada, optimizada para dispositivos móviles.
 
+## Prueba pag web
+
+* **Link:** https://webdownload-dovr.onrender.com
+
 ##  Instalación y Uso
 
 1. Clonar el repositorio:
